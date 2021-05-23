@@ -79,7 +79,7 @@ ui <- fluidPage(
                ),
                mainPanel(
                  
-                 HTML(("<h3>Comparision of the 2 Species</h3>")),  
+                 HTML(("<h3>Comparison of the 2 Species</h3>")),  
                  plotOutput("bxxpltt"),
                  wellPanel(
                    HTML(("<h3>Side-by-side Histograms</h3>")), 
@@ -195,7 +195,7 @@ server <- function(input, output) {
     
     
     
-    boxplot(ttestchoice(),main="Comparision Boxplot",ylab="Weight of Dried Plant")
+    boxplot(ttestchoice(),main="Comparison Boxplot",ylab="Weight of Dried Plant")
     stripchart(ttestchoice(),method="jitter",jitter=.05,vertical=T,add=T) 
   })
   
@@ -241,7 +241,7 @@ server <- function(input, output) {
         aes(x = dose, fill = size) +
         geom_bar()
     }
-    else if(input$chichoice== "dovvsu")
+    else if(input$chichoice== "dovssu")
     {
       ggplot(ToothGrowth) +
         aes(x = dose, fill = supp) +
