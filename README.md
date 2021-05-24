@@ -7,4 +7,4 @@ I have compiled all the programs that I wrote in the My-Shiny-Journey repository
 
 
 
-If the above link does not work:  https://a-u1234.shinyapps.io/Hypothesis-Testing/
+
