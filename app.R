@@ -284,7 +284,7 @@ server <- function(input, output) {
     
   })
   output$chiresult<- renderPrint({
-    if(input$chichoice== "dovvsi")
+    if(input$chichoice== "dovssi")
     {
       print(chisq.test(dosevssize))
       "We reject the null hypothesis at 0.05 significance level "
